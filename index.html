@@ -6,10 +6,14 @@
 <body>
     <canvas id="carcanvas"></canvas>
     <div id="verticalButtons">
-        <button onclick="increase()">+</button>
-        <button onclick="decrease()">-</button>
+        <button onclick="setVary(1.0)">[1.0]</button>
+        <button onclick="setVary(0.1)">[0.1]</button>
+        <button onclick="setVary(0.001)">[0.001]</button>
         <button onclick="save()">💾</button>
         <button onclick="discard()">💩</button>
+        <button onclick="setN(1)">1</button>
+        <button onclick="setN(850)">850</button>
+        <button onclick="setN(2000)">2000</button>
     </div>
     <canvas id="networkcanvas"></canvas>
     <script src="visualizer.js"></script>
