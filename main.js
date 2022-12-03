@@ -48,7 +48,9 @@ for(let i = 0;i < 100;i++){
         }
     }
 }
+
 animate();
+
 function setVary(i){
     localStorage.setItem("vary",
     JSON.stringify(i));
