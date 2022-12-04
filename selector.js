@@ -1,0 +1,14 @@
+/*
+Inputs
+    level of cars passed 
+    closeness to lane centers
+
+    when to do it
+
+    what happens what is the result
+    Saves the result and eventally reloads it
+
+
+
+
+*/
