@@ -19,7 +19,6 @@ else{
     var N = 1000;
     var vary = 0.1;
 }
-N = 100;
 
 const cars = generateCars(N - 1);
 let bestCar = cars[0];
